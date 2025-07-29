@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tushar Bhumkar Institute - Landing Page 7</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    header.hero-banner {
+      background-image: url(image/Economy\ and\ finance\ background\ concept_\ financial\ business\ statistics\ stock\ market\ candlesticks\ and\ bar\ chart.jpg);
+      /* background: linear-gradient(90deg, #0f2027, #203a43, #2c5364); */
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 90%;
+      color: white;
+      padding: 100px 0;
+      text-align: left;
+    }
+
+    .hero-banner h1 {
+      font-size: 45px;
+      font-weight: 700;
+      margin-top: 40px;
+      padding-top: 60px;
+
+    }
+
+    .hero-banner p {
+      font-size: 25px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+
+      .float-btn {
+            position: fixed;
+            bottom: 20px;
+            z-index: 1000;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .float-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .float-btn img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .float-btn.whatsapp {
+            right: 20px;
+            background-color: #25d366;
+        }
+
+
+    .features-section .card {
+      border: none;
+      transition: transform 0.3s;
+    }
+
+    .features-section .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-section {
+      background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+      padding: 60px 0;
+      color: white;
+    }
+
+    .about-section h2 {
+      font-weight: 600;
+    }
+
+    .enroll-section {
+      background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 40px 0;
+    }
+
+    .enroll-section .btn {
+      background-color: #173863;
+      color: white;
+      font-weight: 600;
+    }
+
+    .course-description {
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 10px;
+      padding: 15px;
+      background-color: #f8f9fa;
+      border-left: 4px solid #343a40;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      box-sizing: border-box;
+      line-height: 1.6;
+      color: #212529;
+      border-radius: 6px;
+    }
+
+
+    footer {
+      background-color: #343a40;
+      color: #ccc;
+      padding: 30px 0;
+    }
+
+    footer a {
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar fixed-top navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <div class="mx-auto d-block d-md-none text-center w-100">
+        <a class="navbar-brand mx-auto" href="#">
+          <img src="image/logo.png" alt="Logo" style="width:200px;">
+        </a>
+      </div>
+
+      <a class="navbar-brand d-none d-md-block" href="#">
+        <img src="image/logo.png" alt="Logo" style="width: 200px;">
+      </a>
+
+      <div class="d-none d-md-flex ms-auto">
+        <form class="d-flex">
+          <a href="Register.html" class="btn text-white rounded-5" style="background-color: #173863;" type="submit">Register
+            Now</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero-banner">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-12 text-center d-block">
+              <h1>Unlock Financial Freedom Through Expert Trading</h1>
+          <p>Join Tushar Bhumkar Institute to master stock markets, options, and crypto with confidence and clarity.</p>
+        </div>
+      </div>
+    </div>
+     <a href="https://wa.me/919272000111" class="float-btn whatsapp" target="_blank" title="Chat on WhatsApp">
+            <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp" />
+        </a>
+  </header>
+
+  <section class="features-section py-5 text-center">
+    <div class="container">
+      <div class="row text-center mb-4">
+        <h2 style="font-size: 40px; font-weight: 700; color: #173863;">Why Learn With Us?
+        </h2>
+        <p style="font-size: 20px; font-weight: 500; color: black;">From beginner to pro, our resources are built to
+          support your journey.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card p-4">
+            <i class="bi bi-laptop fs-1 text-primary"></i>
+            <h5 class="mt-3" style=" color: #173863;">Interactive Classes</h5>
+            <p>Live training sessions with real market analysis and hands-on strategy building.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-4">
+            <i class="bi bi-lightbulb fs-1 text-warning"></i>
+            <h5 class="mt-3" style=" color: #173863;">Experienced Mentors</h5>
+            <p>Get guidance from experts who actively trade and train professionals.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-4">
+            <i class="bi bi-award fs-1 text-success"></i>
+            <h5 class="mt-3" style=" color: #173863;">Certification + Internship</h5>
+            <p>Earn credibility and boost your career with recognized certificates and exposure.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <h2 style="font-size: 45px; font-weight: 700; text-align: center; padding-bottom: 30px;"> About Us</h2>
+        <div class="col-md-6">
+          <img src="image/DSC05866 (2).jpg" alt="About Us" class="img-fluid rounded" />
+        </div>
+        <div class="col-md-6">
+          <h2 style="font-size: 40px; color: #28a745; padding-top: 10px;">Tushar Bhumkar Institute</h2>
+          <p style="font-size: 20px; font-weight: 600;">We are a community of passionate traders and learners. With a curriculum built on
+            practical exposure, backed by years of experience, we help you understand markets—not just theory but
+            application.</p>
+          <p style="font-size: 16px;">1. Live Market Webinars</p>
+          <p style="font-size: 16px;">2. Q&A and Peer Discussions</p>
+          <p style="font-size: 16px;">3. Mobile App and Recorded Lessons</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lrean">
+    <div class="container py-5">
+      <div class="row">
+        <h2
+          style="font-size: 45px; font-weight: 700; text-align: center; padding-bottom: 20px; color: #173863;">
+          About Course</h2>
+        <div class="col-12 col-md-6 col-lg-6">
+          <h2 style="font-size: 35px; font-weight: 700; text-align: center;">Basic Workshop</h2>
+          <p style="font-size: 20px; font-weight: 500; text-align: center;">Develop skills to analyze market movements
+            through designed modules. Gain a deeper understanding of how
+            historical data patterns influence market behavior in structured, practical learning sessions.</p>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-6">
+          <h2 style="font-size: 35px; font-weight: 700; text-align: center;">Advance Workshop</h2>
+          <p style="font-size: 20px; font-weight: 500; text-align: center;">Hands-on sessions provide an opportunity to
+            learn about market topics in depth. Designed for those looking
+            to improve their understanding through practical applications and advanced techniques. that it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="enroll-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+             <h2
+            style="font-size: 20px; font-weight: 600; text-align: center; padding-top: 30px;">
+            Join our hands-on share
+            market training workshop
+          </h2>
+          <p style="font-size: 16px; font-weight: 400; text-align: center;">After successful
+            completion of the course, if any student has questions or needs clarification on the
+            course material.</p>
+            <a href="Register.html" class="btn btn-lg rounded-5">Register Now</a>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <section>
+    <div class="container text-center py-5">
+      <div class="row">
+        <h2
+          style="font-size: 35px; font-weight: 600; text-align: center; padding-top: 30px; color: #173863; padding-bottom: 10px;">
+          Google Review</h2>
+        <div class="col-12">
+          <img src="image/google.svg" alt="">
+        </div>
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-12 col-md-4 col-lg-4 ">
+              <h2
+                style="font-size: 20px; font-weight: 600; border-bottom-left-radius: 20px; border-top-right-radius: 20px; margin-top: 50px; padding-top: 10px; padding-bottom: 10px;   background: linear-gradient(90deg, #0f2027, #203a43, #2c5364); color: white;">
+                What Our Learners Are Saying -</h2>
+            </div>
+            <div class="col-12 col-md-8 col-lg-8">
+              <p class="course-description"
+                style="font-size: 16px; font-weight: 400; box-shadow: #343a40; margin-top: 10px; box-sizing: border-box;">
+                Our courses offer’s structured education such as fundamental market analysis, risk control and strategic
+                methods, conducted by qualified tutors. Our courses are tailored to meet students of all levels, with
+                one-to-one interactive lessons. Kindly note that all
+                material offered is only for educational purposes .</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <nav class="navbar  bg-white shadow-sm" style="  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);">
+    <div class="container justify-content-center">
+      <p style="font-size: 16px; font-weight: 400; text-align: center; padding-top: 15px;  color: white;">&copy; 2025 Tushar Bhumkar Institute. All Rights
+        Reserved.</p>
+    </div>
+  </nav>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
